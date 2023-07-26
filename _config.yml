@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
   Its like a blog only different
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://gsswrk.github.io'
+url: 'https://blog.guess.works/'
 
 github:
   username: gsswrk # change to your github username
