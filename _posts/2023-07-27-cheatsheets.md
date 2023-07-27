@@ -83,5 +83,3 @@ followed by the new dns server IP.</p>
 
 <h4>whois</h4>
 – Find out who owns a public IP
-
-
