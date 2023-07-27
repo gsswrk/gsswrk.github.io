@@ -9,7 +9,7 @@ BROWSER TOOLS:
 my favorite dns tool.  
 - SHODAN - <https://www.shodan.io/>
 great for threat hunting and footprinting a target.
-- CYBERCHEF - <gchq.github.io/CyberChef>
+- CYBERCHEF - <https://gchq.github.io/CyberChef>
 great tool when working with encoded data. download and run locally if handling sensitive data.
 - WHOIS - <https://search.arin.net/>
 useful but i prefer to use the whois command from terminal
@@ -22,36 +22,36 @@ CMD CHEATSHEET:
 &nbsp;response: dns.google</p>
 
 <p>look up DNS records<br>
-&nbsp;dig dns.google +nostats +nocomments +nocmd<br>
-&nbsp;&nbsp;;dns.google.                    IN      A<br>
-&nbsp;&nbsp;dns.google.             0       IN      A       8.8.4.4<br>
-&nbsp;&nbsp;dns.google.             0       IN      A       8.8.8.8</p>
+&nbsp;&nbsp;dig dns.google +nostats +nocomments +nocmd<br>
+&nbsp;&nbsp;&nbsp;&nbsp;;dns.google.                    IN      A<br>
+&nbsp;&nbsp;&nbsp;&nbsp;dns.google.             0       IN      A       8.8.4.4<br>
+&nbsp;&nbsp;&nbsp;&nbsp;dns.google.             0       IN      A       8.8.8.8</p>
 
 Quick way to reverse a base64 string
 &nbsp;ECHO *BASE64_STRING* | PYTHOM -M BASE64 -D
 
 <p>subnet scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal <br>
-&nbsp;nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt<br>
-&nbsp;&nbsp;Host: 192.168.1.1 ()    Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.2 ()    Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.9 ()    Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.18 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.24 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.26 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.28 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.29 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.38 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.57 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.69 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.79 ()   Status: Up<br>
-&nbsp;&nbsp;Host: 192.168.1.82 ()   Status: Up</p>
+&nbsp;&nbsp;nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.1 ()    Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.2 ()    Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.9 ()    Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.18 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.24 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.26 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.28 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.29 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.38 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.57 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.69 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.79 ()   Status: Up<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.82 ()   Status: Up</p>
 
 use netcat to scan a range of ports on a host  
-&nbsp;nc -z -v 178.79.152.114 1-100
-&nbsp;&nbsp;nc: connect to 178.79.152.114 port 1 (tcp) failed: No route to host
-&nbsp;&nbsp;nc: connect to 178.79.152.114 port 2 (tcp) failed: No route to host
-&nbsp;&nbsp;nc: connect to 178.79.152.114 port 3 (tcp) failed: No route to host
-&nbsp;&nbsp;nc: connect to 178.79.152.114 port 4 (tcp) failed: No route to host
+&nbsp;&nbsp;nc -z -v 178.79.152.114 1-100
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 1 (tcp) failed: No route to host
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 2 (tcp) failed: No route to host
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 3 (tcp) failed: No route to host
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 4 (tcp) failed: No route to host
 
 nslookup
   if you just type "nslookup" and hit enter you will get the '>' prompt, you can now copy and paste a list of ip addresses to get the respective dns quickly. You can also change which dns server is used to perform the lookup by typing “server” followed by the new dns server IP.
