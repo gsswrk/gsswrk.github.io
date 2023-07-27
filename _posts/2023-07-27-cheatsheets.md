@@ -27,8 +27,8 @@ CMD CHEATSHEET:
 &nbsp;&nbsp;&nbsp;&nbsp;dns.google.             0       IN      A       8.8.4.4<br>
 &nbsp;&nbsp;&nbsp;&nbsp;dns.google.             0       IN      A       8.8.8.8</p>
 
-Quick way to reverse a base64 string
-&nbsp;ECHO *BASE64_STRING* | PYTHOM -M BASE64 -D
+<p>Quick way to reverse a base64 string<br>
+&nbsp;ECHO *BASE64_STRING* | PYTHOM -M BASE64 -D</p>
 
 <p>subnet scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal <br>
 &nbsp;&nbsp;nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt<br>
@@ -53,8 +53,10 @@ use netcat to scan a range of ports on a host
 &nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 3 (tcp) failed: No route to host
 &nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 4 (tcp) failed: No route to host
 
-nslookup
-  if you just type "nslookup" and hit enter you will get the '>' prompt, you can now copy and paste a list of ip addresses to get the respective dns quickly. You can also change which dns server is used to perform the lookup by typing “server” followed by the new dns server IP.
+<p>nslookup<br>
+if you just type "nslookup" and hit enter you will get the '>' prompt, you can now copy and paste a list of ip addresses to<br>
+get the respective dns quickly. You can also change which dns server is used to perform the lookup by typing “server”<br>
+followed by the new dns server IP.</p>
 
 IPCALC – quick way to find out what’s in a subnet
 
