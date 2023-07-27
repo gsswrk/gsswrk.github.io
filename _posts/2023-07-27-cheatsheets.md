@@ -5,13 +5,13 @@ date: 2023-07-27 13:01 -0700
 ---
 
 BROWSER TOOLS:
-  DNSDUMPSTER – https://dnsdumpster.com/
+  - DNSDUMPSTER – https://dnsdumpster.com/
     my favorite dns tool.  
-  SHODAN - https://www.shodan.io/
+  - SHODAN - https://www.shodan.io/
     great for threat hunting and footprinting a target.
-  CYBERCHEF - gchq.github.io/CyberChef
+  - CYBERCHEF - gchq.github.io/CyberChef
     great tool when working with encoded data. download and run locally if handling sensitive data.
-  WHOIS - https://search.arin.net/
+  - WHOIS - https://search.arin.net/
     useful but i prefer to use the whois command from terminal
 
 
