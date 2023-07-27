@@ -30,21 +30,21 @@ CMD CHEATSHEET:
 Quick way to reverse a base64 string
 &nbsp;ECHO *BASE64_STRING* | PYTHOM -M BASE64 -D
 
-subnet scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal 
-&nbsp;nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt
-&nbsp;&nbsp;Host: 192.168.1.1 ()    Status: Up
-&nbsp;&nbsp;Host: 192.168.1.2 ()    Status: Up
-&nbsp;&nbsp;Host: 192.168.1.9 ()    Status: Up
-&nbsp;&nbsp;Host: 192.168.1.18 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.24 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.26 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.28 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.29 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.38 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.57 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.69 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.79 ()   Status: Up
-&nbsp;&nbsp;Host: 192.168.1.82 ()   Status: Up
+<p>subnet scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal <br>
+&nbsp;nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt<br>
+&nbsp;&nbsp;Host: 192.168.1.1 ()    Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.2 ()    Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.9 ()    Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.18 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.24 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.26 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.28 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.29 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.38 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.57 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.69 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.79 ()   Status: Up<br>
+&nbsp;&nbsp;Host: 192.168.1.82 ()   Status: Up</p>
 
 use netcat to scan a range of ports on a host  
 &nbsp;nc -z -v 178.79.152.114 1-100
