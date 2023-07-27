@@ -46,12 +46,12 @@ CMD CHEATSHEET:
 &nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.79 ()   Status: Up<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Host: 192.168.1.82 ()   Status: Up</p>
 
-use netcat to scan a range of ports on a host  
-&nbsp;&nbsp;nc -z -v 178.79.152.114 1-100
-&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 1 (tcp) failed: No route to host
-&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 2 (tcp) failed: No route to host
-&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 3 (tcp) failed: No route to host
-&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 4 (tcp) failed: No route to host
+<p>use netcat to scan a range of ports on a host<br>
+&nbsp;&nbsp;nc -z -v 178.79.152.114 1-100<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 1 (tcp) failed: No route to host<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 2 (tcp) failed: No route to host<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 3 (tcp) failed: No route to host<br>
+&nbsp;&nbsp;&nbsp;&nbsp;nc: connect to 178.79.152.114 port 4 (tcp) failed: No route to host</p>
 
 <p>nslookup<br>
 if you just type "nslookup" and hit enter you will get the '>' prompt, you can now copy and paste a list of ip addresses to<br>
