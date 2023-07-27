@@ -5,27 +5,27 @@ date: 2023-07-27 13:01 -0700
 ---
 
 BROWSER TOOLS:
-  - DNSDUMPSTER – https://dnsdumpster.com/
-    my favorite dns tool.  
-  - SHODAN - https://www.shodan.io/
-    great for threat hunting and footprinting a target.
-  - CYBERCHEF - gchq.github.io/CyberChef
-    great tool when working with encoded data. download and run locally if handling sensitive data.
-  - WHOIS - https://search.arin.net/
-    useful but i prefer to use the whois command from terminal
+- DNSDUMPSTER – https://dnsdumpster.com/
+my favorite dns tool.  
+- SHODAN - https://www.shodan.io/
+great for threat hunting and footprinting a target.
+- CYBERCHEF - gchq.github.io/CyberChef
+great tool when working with encoded data. download and run locally if handling sensitive data.
+- WHOIS - https://search.arin.net/
+useful but i prefer to use the whois command from terminal
 
 
 CMD CHEATSHEET:
 
-  reverse DNS lookup
-    dig -x 8.8.8.8 +short
-      response: dns.google
+<p>reverse DNS lookup<br>
+  dig -x 8.8.8.8 +short<br>
+  response: dns.google</p>
 
-  look up DNS records
-    dig dns.google +nostats +nocomments +nocmd
-      ;dns.google.                    IN      A
-      dns.google.             0       IN      A       8.8.4.4
-      dns.google.             0       IN      A       8.8.8.8  decode base64 string
+<p>look up DNS records<br>
+  dig dns.google +nostats +nocomments +nocmd<br>
+    ;dns.google.                    IN      A<br>
+    dns.google.             0       IN      A       8.8.4.4<br>
+    dns.google.             0       IN      A       8.8.8.8</p>
 
   Quick way to reverse a base64 string
     ECHO *BASE64_STRING* | PYTHOM -M BASE64 -D
