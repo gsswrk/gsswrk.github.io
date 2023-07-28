@@ -14,11 +14,11 @@ We have the technology.
 We can make him better than he was.  
 
 
+
+
+`Better, Stronger, Faster.`  
+
+
 ![giphy](https://github.com/gsswrk/gsswrk.github.io/assets/26857790/ca7d8719-55fc-4c9c-a4ee-c1f71aabf41d)
-
-
-Better, Stronger, Faster.  
-
-
 
 
