@@ -9,7 +9,7 @@ One day my younger brother came over to my house for a barbeque and surprised me
 
 Then it hit me, we can rebuild him.  
 We have the technology.  
-We can make him better, than he was.  
+We can make him better than he was.  
 Better, stronger, faster.  
 
 
