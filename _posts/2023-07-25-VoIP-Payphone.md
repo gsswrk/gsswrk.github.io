@@ -27,8 +27,6 @@ Finally got the payphone mouted up. Here's how I did it.
 
 * **Payphone conversion kit from payphone.com**   
 : Payphones run on street power and so do their parts. Ranging anywhere from 25 to 130VDC. This device replaces the standard keypad with one that generate DTMF at a much lower voltage and has a neat little ringer thing on it.  
-re from 25 to 130VDC. This device replaces the standard keypad with one that generate DTMF at a much lower voltage and has a neat little ringer thing on it.  
-
 
 
 ![internals](https://github.com/gsswrk/gsswrk.github.io/assets/26857790/75cf70f0-2e06-498e-9ff8-e384e8ba8204)  
