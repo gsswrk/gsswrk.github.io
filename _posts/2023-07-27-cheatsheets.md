@@ -27,13 +27,13 @@ date: 2023-07-27 13:01 -0700
 ## CMD CHEATSHEET:  
 
 * Reverse DNS lookup  
-```
+```bash
 dig -x 8.8.8.8 +short  
   dns.google  
 ```
 
 * look up DNS records  
-```
+```bash
 dig dns.google +nostats +nocomments +nocmd  
     ;dns.google.                    IN      A  
     dns.google.             0       IN      A       8.8.4.4  
@@ -41,13 +41,13 @@ dig dns.google +nostats +nocomments +nocmd
 ```
 
 * Reverse a base64 string  
-```
+```bash
 echo *base64_string* | pythom -m base64 -d  
 ```
 
 * Nmap subnet scan  
 scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal  
-```
+```bash
 nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt  
     Host: 192.168.1.1 ()    Status: Up
     Host: 192.168.1.2 ()    Status: Up
@@ -65,7 +65,7 @@ nmap -sn -oG out.txt 192.168.1.0/24 && grep -i up out.txt
 ```
 
 * use netcat to scan a range of ports on a host  
-```
+```bash
 nc -z -v 178.79.152.114 1-100  
     nc: connect to 178.79.152.114 port 1 (tcp) failed: No route to host  
     nc: connect to 178.79.152.114 port 2 (tcp) failed: No route to host  
