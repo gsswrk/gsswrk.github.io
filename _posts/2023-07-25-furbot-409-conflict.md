@@ -26,10 +26,8 @@ We can make him better than he was.
 
 
 
-
-![giphy](https://github.com/gsswrk/gsswrk.github.io/assets/26857790/ca7d8719-55fc-4c9c-a4ee-c1f71aabf41d){: .w-50 .right}
-
 Better, Stronger, Faster.
 {: style="font-size: 120%; text-align: center;"}  
 
 
+![giphy](https://github.com/gsswrk/gsswrk.github.io/assets/26857790/ca7d8719-55fc-4c9c-a4ee-c1f71aabf41d)
