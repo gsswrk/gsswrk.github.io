@@ -79,22 +79,9 @@ get the respective dns quickly. You can also change which dns server is used to 
 followed by the new dns server IP.
 
 * `ipcalc`  
-– quick way to find out what’s in a subnet
-
-* `nmap`  
-– get info about host and check if ports are open
-
-* `dig`  
-– Get reverse dns record
-
-* `nc` (netcat)  
-– quick and easy way to see if a port is accepting connections or being blocked
-
-* `curl`  
-– these flags means that it will ignore SSL cert issues, follow redirects and send the verbose output to a file called “output.txt” for later review.
-
-* `wget`  
-– Good for pulling files from remote locations. Can also be an alternative to curl.
+– quick way to get the size of a subnet
 
 * `whois`  
 – Find out who owns a public IP
+
+* `curl`  
