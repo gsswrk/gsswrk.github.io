@@ -9,9 +9,19 @@ date: 2023-07-25 17:39 -0700
 One day my younger brother came over to my house for a barbeque and surprised me with the furby from my childhood. I grabbed some AAs and popped them in his under carriage. He sprang to life but we couldn't hear anything he was saying. If you held it close enough to your ear you could pick up a slight crackle. Out excitement quickly turned to disappointment. My brother put his hand on my shoulder and said "that's okay, at least you've been reunited".
 
 
-Then it hit me... we can rebuild him.  
+Then it hit me... we can rebuild him. 
+
 We have the technology.  
+
 We can make him better than he was.  
+
+
+
+
+
+
+
+
 
 
 
