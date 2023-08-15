@@ -7,7 +7,7 @@ date: 2023-08-15 14:22 -0700
 The previous design was based off the Google AIY kit that I had been tinkering with at the time. I've learned a few tricks and am taking a new approach to this project. 
 
 My biggest hurdles previously were the size of the components I was trying to cram inside the furby, and, stupid audio drivers for the mic. 
-SO, I decided to ditch the pcb mic in favor of a usb mic and instead of the raspi B+, we are now using the raspi zero 2 w. KISS.
+SO, I decided to ditch the pcb mic in favor of a usb mic and instead of the raspi A+, we are now using the raspi zero 2 w. KISS.
 
 First, I defined the objective. As my companion, furPy should:
 1. Be easily reproducable
