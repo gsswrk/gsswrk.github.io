@@ -23,10 +23,10 @@ Second, I defined the scope:
 5. Where do i put the raspberry pi?
 
 Components list:
-TB6612FNG - motor driver
-bno055 - 9axis imu
-MAX98357A - I2S audio amp out
-sn74ahct125n - Quad Level-Shifter converting 3V logic up to 5V for neopixels
+* TB6612FNG - motor driver
+* bno055 - 9axis imu
+* MAX98357A - I2S audio amp out
+* sn74ahct125n - Quad Level-Shifter converting 3V logic up to 5V for neopixels
 
 
 Next, I took a few photos for scale. This was really helpful later on when trying to place components.
