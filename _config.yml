@@ -19,9 +19,9 @@ timezone: America/Los_Angeles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: GuessWork # the main title
+title: Guess Works® # the main title
 
-tagline: A blog kind of thing # it will display as the sub-title
+tagline: “among the carpenters I am the best chef and among the chefs I am the best carpenter”  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Its like a blog only different
@@ -38,15 +38,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Guess Work
-  email:  # change to your email address
+  name: Guesswork
+  email:  dano@gsswrk.com
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/ # change to your twitter homepage
+    # - https://twitter.com/ # change to your twitter homepage
     - https://github.com/gsswrk # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/danopfer/
 
 google_site_verification: # fill in to your verification string
 
