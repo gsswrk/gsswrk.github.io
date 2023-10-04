@@ -45,6 +45,11 @@ dig dns.google +nostats +nocomments +nocmd
 echo *base64_string* | pythom -m base64 -d  
 ```
 
+* prettify json output   
+```bash
+echo *ugly_json_data* | pythom -m json.tool  
+```
+
 * Nmap subnet scan  
 scan results exported to a file called "out.txt". then filter out the online hosts and display in the terminal  
 ```bash
