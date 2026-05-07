@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll'
+gem 'bigdecimal'
 gem "jekyll-sass-converter", "~> 2.0"
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
