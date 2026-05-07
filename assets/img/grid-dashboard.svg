@@ -1,0 +1,224 @@
+<svg viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dotgrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="44" stroke="rgba(0,255,136,0.013)" stroke-width="1"/>
+      <line x1="0" y1="0" x2="44" y2="0" stroke="rgba(0,255,136,0.013)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="#070710"/>
+  <rect width="1200" height="750" fill="url(#dotgrid)"/>
+
+  <!-- TOP BAR -->
+  <rect width="1200" height="54" fill="#0b0b1c"/>
+  <line x1="0" y1="54" x2="1200" y2="54" stroke="#171830" stroke-width="1"/>
+  <text x="18" y="35" font-family="Courier New, monospace" font-size="20" font-weight="bold" fill="#00ff88" letter-spacing="4">◈ GRID</text>
+  <text x="118" y="26" font-family="Courier New, monospace" font-size="8" fill="#8899bb" letter-spacing="2">GENERAL RESILIENCE</text>
+  <text x="118" y="40" font-family="Courier New, monospace" font-size="8" fill="#8899bb" letter-spacing="2">INFORMATION &amp; DEFENSE</text>
+  <circle cx="728" cy="27" r="4.5" fill="#00ff88"/>
+  <text x="738" y="31" font-family="Courier New, monospace" font-size="11" fill="#8899bb" letter-spacing="1">KIWIX</text>
+  <circle cx="800" cy="27" r="4.5" fill="#ffaa00"/>
+  <text x="810" y="31" font-family="Courier New, monospace" font-size="11" fill="#8899bb" letter-spacing="1">OLLAMA</text>
+  <circle cx="878" cy="27" r="4.5" fill="#00ff88"/>
+  <text x="888" y="31" font-family="Courier New, monospace" font-size="11" fill="#8899bb" letter-spacing="1">PLEX</text>
+  <circle cx="940" cy="27" r="4.5" fill="#00ff88"/>
+  <text x="950" y="31" font-family="Courier New, monospace" font-size="11" fill="#8899bb" letter-spacing="1">ARIA2</text>
+  <rect x="1108" y="14" width="74" height="26" fill="#0b0b1c" rx="3" stroke="#171830"/>
+  <text x="1145" y="31" font-family="Courier New, monospace" font-size="11" fill="#8899bb" text-anchor="middle">⚙ EDIT</text>
+
+  <!-- SEARCH BAR -->
+  <rect x="24" y="66" width="870" height="46" fill="#0b0b1c" rx="4" stroke="rgba(0,255,136,0.3)" stroke-width="1"/>
+  <text x="46" y="95" font-family="Courier New, monospace" font-size="13" fill="#8899bb" letter-spacing="1">⌕  Search all of GRID — Wikipedia · Medical · Repair · Maps · Calibre...</text>
+  <rect x="906" y="66" width="270" height="46" fill="#0b0b1c" rx="4" stroke="#171830"/>
+  <text x="920" y="86" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="2">CONNECTIVITY</text>
+  <circle cx="920" cy="103" r="4" fill="#00ff88"/>
+  <text x="930" y="108" font-family="Courier New, monospace" font-size="11" fill="#00ff88">Claude API · ONLINE</text>
+
+  <!-- ROW 1 -->
+  <!-- ENTERTAINMENT amber 2-wide -->
+  <rect x="24" y="124" width="580" height="154" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="24" y="124" width="580" height="2" fill="#ffaa00"/>
+  <text x="40" y="152" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#ffaa00" letter-spacing="3">🎬  ENTERTAINMENT</text>
+  <text x="40" y="170" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Plex Media Server · Calibre Ebooks · Music Library</text>
+  <text x="40" y="196" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Plex with VAAPI hardware transcoding on AMD RX 580 · 847 items</text>
+  <text x="40" y="214" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Calibre-Web offline ebook library · Music via Plex · No internet.</text>
+  <rect x="40" y="244" width="530" height="3" fill="#171830" rx="2"/>
+  <rect x="40" y="244" width="400" height="3" fill="#ffaa00" rx="2"/>
+  <text x="40" y="262" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">PLEX LIVE · 847 ITEMS · VAAPI ACTIVE · AMD RX 580</text>
+  <rect x="532" y="137" width="56" height="18" fill="rgba(255,170,0,.12)" rx="2"/>
+  <text x="560" y="150" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle" letter-spacing="1">PHASE 1</text>
+
+  <!-- AI ASSISTANT blue -->
+  <rect x="616" y="124" width="288" height="154" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="616" y="124" width="288" height="2" fill="#00aaff"/>
+  <text x="632" y="152" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00aaff" letter-spacing="3">◈  AI ASSISTANT</text>
+  <text x="632" y="170" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Claude API (online) · Ollama (offline)</text>
+  <text x="632" y="196" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Dual-mode: Claude API online,</text>
+  <text x="632" y="214" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Mistral 7B offline. Auto-switch.</text>
+  <rect x="632" y="244" width="240" height="3" fill="#171830" rx="2"/>
+  <rect x="632" y="244" width="110" height="3" fill="#00aaff" rx="2"/>
+  <text x="632" y="262" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">MODEL PULL PENDING · ONLINE ACTIVE</text>
+  <rect x="840" y="137" width="48" height="18" fill="rgba(0,170,255,.12)" rx="2"/>
+  <text x="864" y="150" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">P4</text>
+
+  <!-- ROW 2 -->
+  <!-- WIKIPEDIA green live -->
+  <rect x="24" y="290" width="288" height="154" fill="#0b0b1c" rx="5" stroke="rgba(0,255,136,.22)"/>
+  <rect x="24" y="290" width="288" height="2" fill="#00ff88"/>
+  <text x="40" y="318" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00ff88" letter-spacing="3">🌐  WIKIPEDIA</text>
+  <text x="40" y="336" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Kiwix · Wikipedia · iFixIt · WikiMed</text>
+  <text x="40" y="362" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Offline Wikipedia + 6 ZIM archives.</text>
+  <text x="40" y="380" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Millions of articles. No internet.</text>
+  <rect x="40" y="410" width="240" height="3" fill="#171830" rx="2"/>
+  <rect x="40" y="410" width="240" height="3" fill="#00ff88" rx="2"/>
+  <rect x="134" y="400" width="130" height="26" fill="rgba(0,255,136,.08)" rx="3" stroke="rgba(0,255,136,.25)"/>
+  <text x="199" y="417" font-family="Courier New, monospace" font-size="11" fill="#00ff88" text-anchor="middle" letter-spacing="1">OPEN ↗</text>
+  <text x="40" y="434" font-family="Courier New, monospace" font-size="9" fill="#00ff88" letter-spacing="1">● LIVE · 1.9 GB LOADED</text>
+
+  <!-- MEDICAL amber -->
+  <rect x="324" y="290" width="280" height="154" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="324" y="290" width="280" height="2" fill="#ffaa00"/>
+  <text x="340" y="318" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#ffaa00" letter-spacing="3">⚕  MEDICAL</text>
+  <text x="340" y="336" font-family="Courier New, monospace" font-size="11" fill="#8899bb">WikiMed · Merck · Field Surgery</text>
+  <text x="340" y="362" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">30,000+ offline medical articles.</text>
+  <text x="340" y="380" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Field surgery + pharmacology.</text>
+  <rect x="340" y="410" width="240" height="3" fill="#171830" rx="2"/>
+  <rect x="340" y="410" width="149" height="3" fill="#ffaa00" rx="2"/>
+  <text x="340" y="434" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">DOWNLOADING 2.1 GB · 62%</text>
+
+  <!-- MAPS blue planned/dim -->
+  <rect x="616" y="290" width="288" height="154" fill="#0b0b1c" rx="5" stroke="#171830" opacity="0.4"/>
+  <rect x="616" y="290" width="288" height="2" fill="#00aaff" opacity="0.4"/>
+  <text x="632" y="318" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00aaff" letter-spacing="3" opacity="0.4">🗺  MAPS</text>
+  <text x="632" y="336" font-family="Courier New, monospace" font-size="11" fill="#8899bb" opacity="0.4">ProtoMaps · 110 GB planet.pmtiles</text>
+  <text x="632" y="362" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.3">Full offline world maps via</text>
+  <text x="632" y="380" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.3">ProtoMaps + MapLibre GL JS.</text>
+  <rect x="632" y="410" width="240" height="3" fill="#171830" rx="2" opacity="0.4"/>
+  <text x="632" y="434" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1" opacity="0.4">PHASE 7 · AWAITING DOWNLOAD</text>
+  <rect x="700" y="296" width="78" height="18" fill="rgba(0,170,255,.07)" rx="2" opacity="0.4"/>
+  <text x="739" y="309" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle" opacity="0.4">PLANNED</text>
+
+  <!-- ROW 3 -->
+  <!-- REPAIR green -->
+  <rect x="24" y="456" width="288" height="154" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="24" y="456" width="288" height="2" fill="#00ff88"/>
+  <text x="40" y="484" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00ff88" letter-spacing="3">🔧  REPAIR</text>
+  <text x="40" y="502" font-family="Courier New, monospace" font-size="11" fill="#8899bb">iFixIt · 100,000+ guides</text>
+  <text x="40" y="528" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Devices, appliances, bikes, cars.</text>
+  <text x="40" y="546" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Keep gear running. No internet.</text>
+  <rect x="40" y="576" width="240" height="3" fill="#171830" rx="2"/>
+  <rect x="40" y="576" width="168" height="3" fill="#00ff88" rx="2"/>
+  <text x="40" y="594" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">3.6 GB ZIM · DOWNLOADING</text>
+
+  <!-- DEFENSE amber -->
+  <rect x="324" y="456" width="280" height="154" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="324" y="456" width="280" height="2" fill="#ffaa00"/>
+  <text x="340" y="484" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#ffaa00" letter-spacing="3">🛡  DEFENSE</text>
+  <text x="340" y="502" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Home · Perimeter · OPSEC</text>
+  <text x="340" y="528" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Security hardening, self-defense,</text>
+  <text x="340" y="546" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">OPSEC procedures. Calibre PDFs.</text>
+  <rect x="340" y="576" width="240" height="3" fill="#171830" rx="2"/>
+  <rect x="340" y="576" width="100" height="3" fill="#ffaa00" rx="2"/>
+  <text x="340" y="594" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">ADD PDFs TO CALIBRE LIBRARY</text>
+
+  <!-- HOMESTEAD green planned -->
+  <rect x="616" y="456" width="288" height="154" fill="#0b0b1c" rx="5" stroke="#171830" opacity="0.4"/>
+  <rect x="616" y="456" width="288" height="2" fill="#00ff88" opacity="0.4"/>
+  <text x="632" y="484" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00ff88" letter-spacing="3" opacity="0.4">🏡  HOMESTEAD</text>
+  <text x="632" y="502" font-family="Courier New, monospace" font-size="11" fill="#8899bb" opacity="0.4">Farming · Water · Permaculture</text>
+  <text x="632" y="528" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.3">Agriculture, water management,</text>
+  <text x="632" y="546" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.3">curated offline video library.</text>
+  <text x="632" y="594" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1" opacity="0.4">PHASE 2 · CALIBRE + PLEX VIDEO</text>
+
+  <!-- ARCHIVE MANAGER row 4 -->
+  <rect x="24" y="622" width="880" height="104" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <rect x="24" y="622" width="880" height="2" fill="#00aaff"/>
+  <text x="40" y="650" font-family="Courier New, monospace" font-size="15" font-weight="bold" fill="#00aaff" letter-spacing="3">⬇  ARCHIVE MANAGER</text>
+  <text x="40" y="668" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Kiwix catalog · Calibre library · ZIM downloads · Storage budget</text>
+  <text x="40" y="692" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8">wikipedia_en_wp1.zim</text>
+  <rect x="240" y="684" width="180" height="3" fill="#171830" rx="1"/>
+  <rect x="240" y="684" width="180" height="3" fill="#00ff88" rx="1"/>
+  <text x="428" y="692" font-family="Courier New, monospace" font-size="11" fill="#00ff88">DONE</text>
+  <text x="480" y="692" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8">wikipedia_en_medicine.zim</text>
+  <rect x="720" y="684" width="120" height="3" fill="#171830" rx="1"/>
+  <rect x="720" y="684" width="74" height="3" fill="#ffaa00" rx="1"/>
+  <text x="850" y="692" font-family="Courier New, monospace" font-size="11" fill="#ffaa00">62%</text>
+  <text x="40" y="714" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8">ifixit_en_all.zim</text>
+  <rect x="200" y="706" width="120" height="3" fill="#171830" rx="1"/>
+  <text x="330" y="714" font-family="Courier New, monospace" font-size="11" fill="#8899bb">QUEUED</text>
+  <text x="480" y="714" font-family="Courier New, monospace" font-size="11" fill="#8899bb">2.1 TB / 11 TB used · 15 more ZIM archives available</text>
+
+  <!-- SIDEBAR -->
+  <!-- Services -->
+  <rect x="916" y="124" width="260" height="216" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <text x="930" y="148" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="3">SERVICES</text>
+  <line x1="930" y1="154" x2="1160" y2="154" stroke="#171830"/>
+  <circle cx="940" cy="174" r="4.5" fill="#00ff88"/>
+  <text x="954" y="178" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Kiwix</text>
+  <text x="1162" y="178" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="end">LIVE</text>
+  <circle cx="940" cy="200" r="4.5" fill="#ffaa00"/>
+  <text x="954" y="204" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Ollama</text>
+  <text x="1162" y="204" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="end">READY</text>
+  <circle cx="940" cy="226" r="4.5" fill="#00ff88"/>
+  <text x="954" y="230" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">Plex</text>
+  <text x="1162" y="230" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="end">LIVE</text>
+  <circle cx="940" cy="252" r="4.5" fill="#00ff88"/>
+  <text x="954" y="256" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8">aria2</text>
+  <text x="1162" y="256" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="end">LIVE</text>
+  <circle cx="940" cy="278" r="4.5" fill="#171830"/>
+  <text x="954" y="282" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.4">Calibre-Web</text>
+  <text x="1162" y="282" font-family="Courier New, monospace" font-size="10" fill="#8899bb" text-anchor="end" opacity="0.4">P1</text>
+  <circle cx="940" cy="304" r="4.5" fill="#171830"/>
+  <text x="954" y="308" font-family="Courier New, monospace" font-size="12" fill="#c8d4e8" opacity="0.4">SimpleX</text>
+  <text x="1162" y="308" font-family="Courier New, monospace" font-size="10" fill="#8899bb" text-anchor="end" opacity="0.4">P8</text>
+
+  <!-- System -->
+  <rect x="916" y="352" width="260" height="176" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <text x="930" y="376" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="3">SYSTEM</text>
+  <line x1="930" y1="382" x2="1160" y2="382" stroke="#171830"/>
+  <text x="930" y="404" font-family="Courier New, monospace" font-size="11" fill="#8899bb">CPU</text>
+  <text x="1162" y="404" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" text-anchor="end">i7-4790K</text>
+  <rect x="930" y="410" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="410" width="53" height="3" fill="#00ff88" rx="1"/>
+  <text x="930" y="430" font-family="Courier New, monospace" font-size="11" fill="#8899bb">RAM</text>
+  <text x="1162" y="430" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" text-anchor="end">8.4 / 16 GB</text>
+  <rect x="930" y="436" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="436" width="122" height="3" fill="#00aaff" rx="1"/>
+  <text x="930" y="456" font-family="Courier New, monospace" font-size="11" fill="#8899bb">STORAGE</text>
+  <text x="1162" y="456" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" text-anchor="end">2.1 / 11 TB</text>
+  <rect x="930" y="462" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="462" width="44" height="3" fill="#ffaa00" rx="1"/>
+  <text x="930" y="482" font-family="Courier New, monospace" font-size="11" fill="#8899bb">GPU</text>
+  <text x="1162" y="482" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" text-anchor="end">RX 580 VAAPI</text>
+  <rect x="930" y="488" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="488" width="58" height="3" fill="#00ff88" rx="1"/>
+  <text x="930" y="508" font-family="Courier New, monospace" font-size="11" fill="#8899bb">UPTIME</text>
+  <text x="1162" y="508" font-family="Courier New, monospace" font-size="11" fill="#00ff88" text-anchor="end">14d 6h 22m</text>
+
+  <!-- Downloads -->
+  <rect x="916" y="540" width="260" height="186" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <text x="930" y="564" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="3">DOWNLOADS</text>
+  <line x1="930" y1="570" x2="1160" y2="570" stroke="#171830"/>
+  <text x="930" y="592" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8">wikipedia_en_wp1</text>
+  <rect x="930" y="598" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="598" width="232" height="3" fill="#00ff88" rx="1"/>
+  <text x="1162" y="592" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="end">DONE</text>
+  <text x="930" y="620" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8">wikipedia_en_medicine</text>
+  <rect x="930" y="626" width="232" height="3" fill="#171830" rx="1"/>
+  <rect x="930" y="626" width="144" height="3" fill="#ffaa00" rx="1"/>
+  <text x="1162" y="620" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="end">62%</text>
+  <text x="930" y="648" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" opacity="0.45">ifixit_en_all</text>
+  <rect x="930" y="654" width="232" height="3" fill="#171830" rx="1"/>
+  <text x="1162" y="648" font-family="Courier New, monospace" font-size="10" fill="#8899bb" text-anchor="end" opacity="0.45">QUEUED</text>
+  <text x="930" y="676" font-family="Courier New, monospace" font-size="11" fill="#c8d4e8" opacity="0.45">planet.pmtiles</text>
+  <rect x="930" y="682" width="232" height="3" fill="#171830" rx="1"/>
+  <text x="1162" y="676" font-family="Courier New, monospace" font-size="10" fill="#8899bb" text-anchor="end" opacity="0.45">P7</text>
+  <text x="930" y="706" font-family="Courier New, monospace" font-size="10" fill="#8899bb" letter-spacing="1">14:33:07 · GRID v0.7</text>
+  <text x="1162" y="706" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="end">● READY</text>
+
+  <!-- Footer -->
+  <line x1="0" y1="736" x2="1200" y2="736" stroke="#171830"/>
+  <text x="24" y="748" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">GRID v0.7 · UNRAID 6.12 · DOCKER COMPOSE · NGINX PROXY · 100% OFFLINE AFTER SETUP</text>
+  <text x="1176" y="748" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">gsswrk/grid</text>
+</svg>

@@ -1,0 +1,233 @@
+<svg viewBox="0 0 1100 880" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="bg" width="44" height="44" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="44" stroke="rgba(0,255,136,0.01)" stroke-width="1"/>
+      <line x1="0" y1="0" x2="44" y2="0" stroke="rgba(0,255,136,0.01)" stroke-width="1"/>
+    </pattern>
+    <filter id="glow-g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-b" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="880" fill="#070710"/>
+  <rect width="1100" height="880" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="550" y="38" font-family="Courier New, monospace" font-size="13" fill="#8899bb" text-anchor="middle" letter-spacing="4">GRID CAPABILITIES</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- CENTER NODE -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <circle cx="550" cy="440" r="52" fill="#0b0b1c" stroke="#00ff88" stroke-width="2" filter="url(#glow-g)"/>
+  <circle cx="550" cy="440" r="46" fill="#0d1a12"/>
+  <text x="550" y="434" font-family="Courier New, monospace" font-size="22" font-weight="bold" fill="#00ff88" text-anchor="middle">◈</text>
+  <text x="550" y="453" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#00ff88" text-anchor="middle" letter-spacing="3">GRID</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 1: KNOWLEDGE (top, 270°) → (550, 190) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="550" y1="388" x2="550" y2="242" stroke="#00ff88" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="550" cy="190" r="38" fill="#0b0b1c" stroke="#00ff88" stroke-width="1.5"/>
+  <circle cx="550" cy="190" r="32" fill="#091a0f"/>
+  <text x="550" y="186" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#00ff88" text-anchor="middle" letter-spacing="2">KNOW-</text>
+  <text x="550" y="200" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#00ff88" text-anchor="middle" letter-spacing="2">LEDGE</text>
+
+  <!-- Knowledge sub-items (spread above/around center top node) -->
+  <!-- Wikipedia -->
+  <line x1="520" y1="154" x2="432" y2="90" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="336" y="58" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="401" y="75" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">🌐 Wikipedia</text>
+  <text x="401" y="87" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Kiwix · ZIM · 1.9 GB</text>
+
+  <!-- Medical -->
+  <line x1="548" y1="152" x2="520" y2="84" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="456" y="52" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="521" y="69" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">⚕ Medical Ref</text>
+  <text x="521" y="81" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">WikiMed · 30,000+ articles</text>
+
+  <!-- iFixIt / Repair -->
+  <line x1="576" y1="154" x2="624" y2="82" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="578" y="52" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="643" y="69" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">🔧 Repair Guides</text>
+  <text x="643" y="81" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">iFixIt · 100,000+ guides</text>
+
+  <!-- Plant DB -->
+  <line x1="582" y1="158" x2="740" y2="120" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="706" y="96" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.6"/>
+  <text x="771" y="113" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.7">🌿 Plant Database</text>
+  <text x="771" y="125" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">iNaturalist · 12,400 species</text>
+
+  <!-- Education -->
+  <line x1="514" y1="156" x2="348" y2="112" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="216" y="88" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.6"/>
+  <text x="281" y="105" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.7">🎓 Education</text>
+  <text x="281" y="117" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Kolibri · Khan Academy</text>
+
+  <!-- Chemistry -->
+  <line x1="513" y1="168" x2="260" y2="170" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="128" y="152" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.6"/>
+  <text x="193" y="169" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.7">⚗ Chemistry</text>
+  <text x="193" y="181" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Calibre PDFs · Fuel/Soap</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 2: COMMUNICATIONS (top-right, 330°) → (723, 297) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="598" y1="410" x2="685" y2="333" stroke="#00aaff" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="723" cy="297" r="38" fill="#0b0b1c" stroke="#00aaff" stroke-width="1.5"/>
+  <circle cx="723" cy="297" r="32" fill="#091523"/>
+  <text x="723" y="293" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#00aaff" text-anchor="middle" letter-spacing="2">COMMS</text>
+  <text x="723" y="307" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">📡</text>
+
+  <!-- Comms sub-items (towards upper right) -->
+  <line x1="758" y1="270" x2="820" y2="200" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="780" y="166" width="146" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="853" y="183" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">📡 HAM &amp; SDR Radio</text>
+  <text x="853" y="195" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">JS8Call · Winlink · RTL-SDR</text>
+
+  <line x1="760" y1="282" x2="870" y2="260" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="828" y="242" width="140" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="898" y="259" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">LoRa / Meshtastic</text>
+  <text x="898" y="271" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">5–15 km mesh range</text>
+
+  <line x1="756" y1="298" x2="882" y2="318" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="840" y="300" width="130" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="905" y="317" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">SimpleX Chat</text>
+  <text x="905" y="329" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Self-hosted · No authority</text>
+
+  <line x1="750" y1="320" x2="846" y2="378" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="804" y="360" width="130" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.6"/>
+  <text x="869" y="377" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle" opacity="0.7">Morse Code</text>
+  <text x="869" y="389" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Web tool · GPIO keyer</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 3: SECURITY (bottom-right, 30°) → (723, 583) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="596" y1="470" x2="685" y2="547" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="723" cy="583" r="38" fill="#0b0b1c" stroke="#ffaa00" stroke-width="1.5"/>
+  <circle cx="723" cy="583" r="32" fill="#1a1305"/>
+  <text x="723" y="579" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#ffaa00" text-anchor="middle" letter-spacing="2">SECUR-</text>
+  <text x="723" y="593" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#ffaa00" text-anchor="middle" letter-spacing="2">ITY</text>
+
+  <!-- Security sub-items -->
+  <line x1="758" y1="600" x2="862" y2="636" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="820" y="618" width="130" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="885" y="635" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">🛡 Defense Guides</text>
+  <text x="885" y="647" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Tactics · Perimeter · OPSEC</text>
+
+  <line x1="754" y1="616" x2="824" y2="690" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="784" y="672" width="120" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="844" y="689" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">⚖ Legal Rights</text>
+  <text x="844" y="701" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Constitution · IHL · OPSEC</text>
+
+  <line x1="744" y1="620" x2="780" y2="740" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="720" y="722" width="120" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.6"/>
+  <text x="780" y="739" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle" opacity="0.7">🔐 CyberChef</text>
+  <text x="780" y="751" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Encryption · Encoding</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 4: SUSTENANCE (bottom, 90°) → (550, 690) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="550" y1="492" x2="550" y2="638" stroke="#00ff88" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="550" cy="690" r="38" fill="#0b0b1c" stroke="#00ff88" stroke-width="1.5"/>
+  <circle cx="550" cy="690" r="32" fill="#091a0f"/>
+  <text x="550" y="686" font-family="Courier New, monospace" font-size="10" font-weight="bold" fill="#00ff88" text-anchor="middle" letter-spacing="1">SUST-</text>
+  <text x="550" y="700" font-family="Courier New, monospace" font-size="10" font-weight="bold" fill="#00ff88" text-anchor="middle" letter-spacing="1">ENANCE</text>
+
+  <!-- Sustenance sub-items (spread below) -->
+  <line x1="518" y1="726" x2="400" y2="778" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="296" y="760" width="148" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="370" y="777" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">🏡 Homesteading</text>
+  <text x="370" y="789" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Farming · Water · Animals</text>
+
+  <line x1="538" y1="728" x2="490" y2="800" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="416" y="782" width="148" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="490" y="799" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">🌱 Seeds &amp; Foraging</text>
+  <text x="490" y="811" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">PFAF · 7,000 varieties</text>
+
+  <line x1="563" y1="728" x2="612" y2="800" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="546" y="782" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+  <text x="611" y="799" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle">🌿 Plant ID</text>
+  <text x="611" y="811" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">iNaturalist · Edible/Toxic</text>
+
+  <line x1="582" y1="724" x2="712" y2="788" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect x="668" y="770" width="130" height="34" fill="#091a0f" rx="3" stroke="#00ff88" stroke-width="1" opacity="0.6"/>
+  <text x="733" y="787" font-family="Courier New, monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.7">Preservation</text>
+  <text x="733" y="799" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Calibre · Canning · Drying</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 5: INFRASTRUCTURE (left, 180°) → (377, 583) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="502" y1="468" x2="415" y2="547" stroke="#00aaff" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="377" cy="583" r="38" fill="#0b0b1c" stroke="#00aaff" stroke-width="1.5"/>
+  <circle cx="377" cy="583" r="32" fill="#091523"/>
+  <text x="377" y="579" font-family="Courier New, monospace" font-size="10" font-weight="bold" fill="#00aaff" text-anchor="middle" letter-spacing="1">INFRA-</text>
+  <text x="377" y="593" font-family="Courier New, monospace" font-size="10" font-weight="bold" fill="#00aaff" text-anchor="middle" letter-spacing="1">STRUCT</text>
+
+  <!-- Infrastructure sub-items (towards lower left) -->
+  <line x1="342" y1="600" x2="236" y2="636" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="96" y="618" width="140" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="166" y="635" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">🗺 Offline Maps</text>
+  <text x="166" y="647" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">ProtoMaps · 110 GB planet</text>
+
+  <line x1="344" y1="618" x2="254" y2="698" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="122" y="680" width="130" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="187" y="697" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">🚲 Transport</text>
+  <text x="187" y="709" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Bike · Foot nav · No fuel</text>
+
+  <line x1="340" y1="620" x2="298" y2="744" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="200" y="726" width="120" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.6"/>
+  <text x="260" y="743" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle" opacity="0.7">💧 Water</text>
+  <text x="260" y="755" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" opacity="0.7">Purif. · Storage · Sourcing</text>
+
+  <line x1="340" y1="567" x2="218" y2="548" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+  <rect x="74" y="530" width="144" height="34" fill="#091523" rx="3" stroke="#00aaff" stroke-width="1" opacity="0.8"/>
+  <text x="146" y="547" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">⚡ Power (Solar Pi)</text>
+  <text x="146" y="559" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">LiFePO4 · MPPT · Offgrid</text>
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <!-- BRANCH 6: TOOLS (upper-left, 210°) → (377, 297) -->
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <line x1="502" y1="411" x2="415" y2="333" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+  <circle cx="377" cy="297" r="38" fill="#0b0b1c" stroke="#ffaa00" stroke-width="1.5"/>
+  <circle cx="377" cy="297" r="32" fill="#1a1305"/>
+  <text x="377" y="289" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#ffaa00" text-anchor="middle" letter-spacing="2">TOOLS</text>
+  <text x="377" y="303" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">&amp; OPS</text>
+
+  <!-- Tools sub-items (towards upper left) -->
+  <line x1="342" y1="279" x2="240" y2="210" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="96" y="192" width="144" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="168" y="209" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">◈ AI Assistant</text>
+  <text x="168" y="221" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Claude API / Ollama offline</text>
+
+  <line x1="340" y1="260" x2="230" y2="230" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="82" y="212" width="148" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="156" y="229" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">⬇ Archive Mgr</text>
+  <text x="156" y="241" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Kiwix catalog · ZIM DL</text>
+
+  <line x1="340" y1="296" x2="216" y2="302" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="74" y="284" width="142" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="145" y="301" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">🎬 Entertainment</text>
+  <text x="145" y="313" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Plex · Calibre · Morale</text>
+
+  <line x1="342" y1="320" x2="242" y2="384" stroke="#ffaa00" stroke-width="1" opacity="0.3"/>
+  <rect x="100" y="366" width="142" height="34" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.8"/>
+  <text x="171" y="383" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">⚙ Service Mgr</text>
+  <text x="171" y="395" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Docker · Start/Stop</text>
+
+  <!-- LEGEND -->
+  <rect x="20" y="840" width="400" height="30" fill="transparent"/>
+  <circle cx="36" cy="855" r="6" fill="transparent" stroke="#00ff88" stroke-width="1.5"/>
+  <text x="48" y="859" font-family="Courier New, monospace" font-size="10" fill="#00ff88">LIVE / KNOWLEDGE</text>
+  <circle cx="176" cy="855" r="6" fill="transparent" stroke="#00aaff" stroke-width="1.5"/>
+  <text x="188" y="859" font-family="Courier New, monospace" font-size="10" fill="#00aaff">COMMS / INFRA</text>
+  <circle cx="316" cy="855" r="6" fill="transparent" stroke="#ffaa00" stroke-width="1.5"/>
+  <text x="328" y="859" font-family="Courier New, monospace" font-size="10" fill="#ffaa00">SECURITY / OPS</text>
+
+  <text x="550" y="858" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" letter-spacing="1">100% OFFLINE AFTER SETUP · UNRAID + DOCKER · REACT + NGINX</text>
+  <text x="1080" y="858" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">gsswrk/grid</text>
+</svg>

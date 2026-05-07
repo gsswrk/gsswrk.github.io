@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser chrome -->
+  <rect width="1200" height="750" fill="#1c1c2e" rx="10"/>
+  <rect width="1200" height="44" fill="#252535" rx="10"/>
+  <rect y="34" width="1200" height="10" fill="#252535"/>
+  <line x1="0" y1="44" x2="1200" y2="44" stroke="#3a3a55"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="22" r="7" fill="#ff5f57"/>
+  <circle cx="46" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="70" cy="22" r="7" fill="#28c840"/>
+
+  <!-- URL bar -->
+  <rect x="100" y="8" width="900" height="28" fill="#1a1a2e" rx="4" stroke="#3a3a55"/>
+  <text x="128" y="27" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#8899bb">&#x1F512; grid.local/kiwix/wikipedia_en_medicine/A/Wilderness_first_aid</text>
+
+  <!-- Offline badge -->
+  <rect x="1060" y="10" width="120" height="24" fill="rgba(0,255,136,0.14)" rx="4"/>
+  <circle cx="1076" cy="22" r="4" fill="#00ff88"/>
+  <text x="1086" y="26" font-family="Courier New, monospace" font-size="11" fill="#00ff88" letter-spacing="1">OFFLINE</text>
+
+  <!-- Kiwix nav bar -->
+  <rect y="44" width="1200" height="52" fill="#1e2030"/>
+  <line x1="0" y1="96" x2="1200" y2="96" stroke="#2e3050"/>
+  <text x="20" y="78" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#5dadec">K</text>
+  <text x="37" y="78" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#e8eaf0">iwix</text>
+  <line x1="80" y1="56" x2="80" y2="88" stroke="#2e3050"/>
+  <text x="95" y="78" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#8899bb">Wikipedia — English (Medical)</text>
+  <!-- Kiwix search -->
+  <rect x="600" y="60" width="380" height="32" fill="#141422" rx="5" stroke="#2e3050"/>
+  <text x="622" y="81" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8899bb">Search Wikipedia...</text>
+  <text x="962" y="81" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5dadec">&#x1F50D;</text>
+  <!-- Tabs -->
+  <text x="1010" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5dadec">Home</text>
+  <text x="1065" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8899bb">Library</text>
+  <text x="1128" y="78" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8899bb">Search</text>
+
+  <!-- Article content area -->
+  <rect y="96" width="1200" height="654" fill="#f8f9fa"/>
+
+  <!-- Left sidebar / TOC -->
+  <rect y="96" width="210" height="654" fill="#eef0f5"/>
+  <line x1="210" y1="96" x2="210" y2="750" stroke="#c9cfd8"/>
+  <text x="18" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#202122">Contents</text>
+  <line x1="12" y1="130" x2="198" y2="130" stroke="#c9cfd8"/>
+  <text x="18" y="150" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">1 Overview</text>
+  <text x="18" y="170" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">2 Patient Assessment</text>
+  <text x="18" y="190" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">3 Airway Management</text>
+  <text x="18" y="210" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">4 Hemorrhage Control</text>
+  <text x="18" y="230" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">5 Wound Care</text>
+  <text x="18" y="250" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">6 Fractures &amp; Splinting</text>
+  <text x="18" y="270" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">7 Hypothermia</text>
+  <text x="18" y="290" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">8 Burns</text>
+  <text x="18" y="310" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">9 Evacuation</text>
+  <text x="18" y="330" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">10 See also</text>
+  <text x="18" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0645ad">11 References</text>
+  <line x1="12" y1="364" x2="198" y2="364" stroke="#c9cfd8"/>
+  <text x="18" y="384" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d" font-weight="bold">Served by Kiwix</text>
+  <text x="18" y="400" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">grid.local/kiwix/</text>
+  <text x="18" y="416" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">No internet required</text>
+  <rect x="12" y="426" width="186" height="26" fill="rgba(0,255,136,0.1)" rx="4" stroke="rgba(0,200,100,0.4)"/>
+  <text x="105" y="443" font-family="Courier New, monospace" font-size="10" fill="#008844" text-anchor="middle" letter-spacing="1">● OFFLINE MODE</text>
+
+  <!-- Article title -->
+  <text x="228" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="bold" fill="#202122">Wilderness First Aid</text>
+  <line x1="228" y1="144" x2="1160" y2="144" stroke="#a2a9b1"/>
+  <text x="228" y="162" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#54595d" font-style="italic">From Wikipedia, the free encyclopedia — served offline by Kiwix (GRID system)</text>
+
+  <!-- Infobox -->
+  <rect x="870" y="96" width="310" height="238" fill="#f8f9fa" stroke="#a2a9b1"/>
+  <rect x="870" y="96" width="310" height="34" fill="#cee0f2"/>
+  <line x1="870" y1="130" x2="1180" y2="130" stroke="#a2a9b1"/>
+  <text x="1025" y="119" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#202122" text-anchor="middle">Wilderness First Aid</text>
+  <text x="880" y="152" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Coverage:</text>
+  <text x="980" y="152" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">Remote, backcountry</text>
+  <line x1="870" y1="160" x2="1180" y2="160" stroke="#eaecf0"/>
+  <text x="880" y="178" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Providers:</text>
+  <text x="980" y="178" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">NOLS, WMI, SOLO</text>
+  <line x1="870" y1="186" x2="1180" y2="186" stroke="#eaecf0"/>
+  <text x="880" y="204" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Key skills:</text>
+  <text x="980" y="204" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">STOP, ABCDE, CPR</text>
+  <line x1="870" y1="212" x2="1180" y2="212" stroke="#eaecf0"/>
+  <text x="880" y="230" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Equipment:</text>
+  <text x="980" y="230" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">FAK, SAM splint, CPR mask</text>
+  <line x1="870" y1="238" x2="1180" y2="238" stroke="#eaecf0"/>
+  <text x="880" y="256" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Related:</text>
+  <text x="980" y="256" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0645ad">Wilderness medicine</text>
+  <line x1="870" y1="264" x2="1180" y2="264" stroke="#eaecf0"/>
+  <text x="880" y="282" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Evac time:</text>
+  <text x="980" y="282" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">&gt;30 min (remote)</text>
+  <line x1="870" y1="290" x2="1180" y2="290" stroke="#eaecf0"/>
+  <text x="880" y="308" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#54595d">Standard:</text>
+  <text x="980" y="308" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#202122">WEMS, WFR, WFA</text>
+
+  <!-- Article body -->
+  <text x="228" y="192" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#202122">Overview</text>
+  <text x="228" y="214" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">Wilderness first aid (WFA) is the application of first aid techniques in remote locations where</text>
+  <text x="228" y="232" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">professional emergency services may be unavailable or significantly delayed. Practitioners must</text>
+  <text x="228" y="250" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">be prepared to manage patients for hours or days before evacuation to definitive care.</text>
+
+  <text x="228" y="288" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#202122">Patient Assessment System</text>
+  <text x="228" y="310" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">The standard WFA approach begins with the STOP mnemonic, followed by the ABCDE survey:</text>
+  <text x="244" y="334" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">•  Stop — prevent additional injury to patient and rescuer</text>
+  <text x="244" y="354" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">•  Think — assess scene safety, mechanism of injury</text>
+  <text x="244" y="374" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">•  Observe — form general impression of patient condition</text>
+  <text x="244" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">•  Plan — determine resources, priorities, and evacuation urgency</text>
+  <text x="228" y="420" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">Followed by the primary survey: Airway, Breathing, Circulation, Disability, Expose/Environment.</text>
+
+  <text x="228" y="456" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#202122">Hemorrhage Control</text>
+  <text x="228" y="478" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">Life-threatening bleeding must be controlled before any other treatment. In the wilderness setting,</text>
+  <text x="228" y="496" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">a tourniquet should be applied 2–3 inches proximal to the wound for extremity hemorrhage.</text>
+  <text x="228" y="514" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">Document the time of application. Wound packing with hemostatic gauze (Combat Gauze, QuikClot)</text>
+  <text x="228" y="532" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">is preferred for junctional wounds where tourniquet application is not possible.</text>
+
+  <text x="228" y="566" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#202122">Wound Care &amp; Irrigation</text>
+  <text x="228" y="588" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">Wound irrigation is the most critical intervention for contaminated lacerations. Use at minimum</text>
+  <text x="228" y="606" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">1 liter of potable water under pressure. A 20 cc syringe with 19-gauge angiocath produces</text>
+  <text x="228" y="624" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#202122">adequate pressure (~7 psi). Sterile saline is ideal; clean potable water is acceptable in the field.</text>
+
+  <!-- GRID overlay bar -->
+  <rect y="700" width="1200" height="50" fill="#0b0b1c"/>
+  <line x1="0" y1="700" x2="1200" y2="700" stroke="#171830"/>
+  <text x="24" y="722" font-family="Courier New, monospace" font-size="13" fill="#00ff88" letter-spacing="2">◈ GRID</text>
+  <text x="94" y="722" font-family="Courier New, monospace" font-size="11" fill="#8899bb">·  KIWIX MEDICAL ARCHIVE  ·  OFFLINE  ·  30,000+ WIKIPEDIA MEDICAL ARTICLES  ·  2.1 GB ZIM</text>
+  <circle cx="1138" cy="722" r="4" fill="#00ff88"/>
+  <text x="1148" y="726" font-family="Courier New, monospace" font-size="11" fill="#00ff88">OFFLINE</text>
+  <text x="24" y="742" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="1">NO INTERNET REQUIRED · SERVING FROM LOCAL ARCHIVE · grid.local · ZIM: wikipedia_en_medicine_maxi_2026-04.zim</text>
+</svg>

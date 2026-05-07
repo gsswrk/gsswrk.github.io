@@ -1,0 +1,267 @@
+<svg viewBox="0 0 1100 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="bg" width="44" height="44" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="44" stroke="rgba(0,255,136,0.01)" stroke-width="1"/>
+      <line x1="0" y1="0" x2="44" y2="0" stroke="rgba(0,255,136,0.01)" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow-g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#00ff88" opacity="0.7"/>
+    </marker>
+    <marker id="arrow-b" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#00aaff" opacity="0.7"/>
+    </marker>
+    <marker id="arrow-a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#ffaa00" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="680" fill="#070710"/>
+  <rect width="1100" height="680" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="550" y="36" font-family="Courier New, monospace" font-size="13" fill="#8899bb" text-anchor="middle" letter-spacing="4">GRID SOLAR PI NODE — HARDWARE DIAGRAM</text>
+  <text x="550" y="54" font-family="Courier New, monospace" font-size="10" fill="#8899bb" text-anchor="middle" letter-spacing="2">Portable · Solar-powered · ~50 GB critical knowledge · Offline AI · LoRa mesh</text>
+
+  <!-- ───────────────────────────────────── -->
+  <!-- LEFT: HARDWARE DIAGRAM               -->
+  <!-- ───────────────────────────────────── -->
+
+  <!-- SOLAR PANEL -->
+  <rect x="40" y="80" width="180" height="120" fill="#0a1520" rx="6" stroke="#00aaff" stroke-width="1.5"/>
+  <text x="130" y="106" font-family="Courier New, monospace" font-size="11" fill="#00aaff" text-anchor="middle" letter-spacing="1">SOLAR PANEL</text>
+  <text x="130" y="120" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">100W Flexible Mono</text>
+  <!-- Panel cells -->
+  <rect x="52" y="128" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <rect x="94" y="128" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <rect x="136" y="128" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <rect x="52" y="156" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <rect x="94" y="156" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <rect x="136" y="156" width="36" height="22" fill="#0d1f30" stroke="#1a3050" stroke-width="1" rx="2"/>
+  <!-- Sun icon -->
+  <circle cx="196" cy="92" r="10" fill="#ffaa00" opacity="0.8"/>
+  <line x1="196" y1="78" x2="196" y2="74" stroke="#ffaa00" stroke-width="1.5" opacity="0.6"/>
+  <line x1="196" y1="106" x2="196" y2="110" stroke="#ffaa00" stroke-width="1.5" opacity="0.6"/>
+  <line x1="182" y1="92" x2="178" y2="92" stroke="#ffaa00" stroke-width="1.5" opacity="0.6"/>
+  <line x1="210" y1="92" x2="214" y2="92" stroke="#ffaa00" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Arrow: Panel → MPPT -->
+  <line x1="130" y1="200" x2="130" y2="238" stroke="#00aaff" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-b)"/>
+  <text x="136" y="222" font-family="Courier New, monospace" font-size="9" fill="#00aaff" opacity="0.7">DC in</text>
+
+  <!-- MPPT CONTROLLER -->
+  <rect x="50" y="240" width="160" height="88" fill="#0a1520" rx="6" stroke="#00aaff" stroke-width="1.5"/>
+  <text x="130" y="264" font-family="Courier New, monospace" font-size="11" fill="#00aaff" text-anchor="middle" letter-spacing="1">MPPT</text>
+  <text x="130" y="278" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">Victron SmartSolar</text>
+  <text x="130" y="292" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">75/15 · Bluetooth</text>
+  <!-- Indicator lights -->
+  <circle cx="80" cy="308" r="4" fill="#00ff88"/>
+  <circle cx="96" cy="308" r="4" fill="#00ff88"/>
+  <circle cx="112" cy="308" r="4" fill="#ffaa00"/>
+
+  <!-- Arrow: MPPT → Battery -->
+  <line x1="210" y1="284" x2="280" y2="284" stroke="#ffaa00" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-a)"/>
+  <text x="236" y="278" font-family="Courier New, monospace" font-size="9" fill="#ffaa00" opacity="0.7">12V DC</text>
+
+  <!-- LIFEPO4 BATTERY -->
+  <rect x="282" y="240" width="160" height="88" fill="#120d02" rx="6" stroke="#ffaa00" stroke-width="1.5"/>
+  <text x="362" y="264" font-family="Courier New, monospace" font-size="11" fill="#ffaa00" text-anchor="middle" letter-spacing="1">LiFePO4</text>
+  <text x="362" y="278" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">12V 40Ah / 480 Wh</text>
+  <text x="362" y="292" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">2000+ cycle life · Safe</text>
+  <!-- Battery level -->
+  <rect x="298" y="302" width="128" height="18" fill="#1a1305" rx="3" stroke="#ffaa00" stroke-width="1" opacity="0.6"/>
+  <rect x="300" y="304" width="102" height="14" fill="#ffaa00" rx="2" opacity="0.7"/>
+  <text x="362" y="315" font-family="Courier New, monospace" font-size="8" fill="#070710" text-anchor="middle">80%</text>
+
+  <!-- Arrow: Battery → USB-C PD -->
+  <line x1="362" y1="328" x2="362" y2="376" stroke="#ffaa00" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-a)"/>
+  <text x="370" y="356" font-family="Courier New, monospace" font-size="9" fill="#ffaa00" opacity="0.7">12V</text>
+
+  <!-- USB-C PD TRIGGER -->
+  <rect x="292" y="378" width="140" height="70" fill="#120d02" rx="5" stroke="#ffaa00" stroke-width="1"/>
+  <text x="362" y="400" font-family="Courier New, monospace" font-size="10" fill="#ffaa00" text-anchor="middle">USB-C PD</text>
+  <text x="362" y="414" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">12V → 5V / 5A</text>
+  <text x="362" y="428" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">PD trigger board</text>
+  <!-- USB-C port -->
+  <rect x="424" y="402" width="12" height="20" fill="#1a1305" rx="2" stroke="#ffaa00" stroke-width="1"/>
+
+  <!-- Arrow: USB-C → SBC -->
+  <line x1="436" y1="412" x2="490" y2="412" stroke="#00ff88" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-g)"/>
+  <text x="458" y="406" font-family="Courier New, monospace" font-size="9" fill="#00ff88" opacity="0.7">5V USB-C</text>
+
+  <!-- ORANGE PI 5 PLUS (SBC) — center of diagram -->
+  <rect x="490" y="340" width="200" height="140" fill="#091a0f" rx="8" stroke="#00ff88" stroke-width="2"/>
+  <text x="590" y="366" font-family="Courier New, monospace" font-size="12" fill="#00ff88" text-anchor="middle" letter-spacing="2">OPi5 Plus</text>
+  <text x="590" y="380" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">16 GB RAM · RK3588 · NPU</text>
+  <!-- Board components mock -->
+  <rect x="504" y="390" width="44" height="32" fill="#0a2010" rx="3" stroke="#00ff88" stroke-width="0.5" opacity="0.7"/>
+  <text x="526" y="406" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">SoC</text>
+  <text x="526" y="417" font-family="Courier New, monospace" font-size="7" fill="#8899bb" text-anchor="middle">RK3588</text>
+  <rect x="556" y="390" width="40" height="32" fill="#0a2010" rx="3" stroke="#00ff88" stroke-width="0.5" opacity="0.7"/>
+  <text x="576" y="406" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">RAM</text>
+  <text x="576" y="417" font-family="Courier New, monospace" font-size="7" fill="#8899bb" text-anchor="middle">16 GB</text>
+  <rect x="604" y="390" width="40" height="32" fill="#0a2010" rx="3" stroke="#00ff88" stroke-width="0.5" opacity="0.7"/>
+  <text x="624" y="406" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">NPU</text>
+  <text x="624" y="417" font-family="Courier New, monospace" font-size="7" fill="#8899bb" text-anchor="middle">Plant AI</text>
+  <rect x="652" y="390" width="28" height="32" fill="#0a2010" rx="3" stroke="#00ff88" stroke-width="0.5" opacity="0.7"/>
+  <text x="666" y="406" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">NVMe</text>
+  <text x="666" y="417" font-family="Courier New, monospace" font-size="7" fill="#8899bb" text-anchor="middle">500G</text>
+  <!-- GPIO header -->
+  <rect x="504" y="430" width="172" height="10" fill="#112210" rx="2" stroke="#00ff88" stroke-width="0.5" opacity="0.5"/>
+  <text x="590" y="439" font-family="Courier New, monospace" font-size="7" fill="#8899bb" text-anchor="middle">GPIO HEADER</text>
+  <!-- Status LEDs -->
+  <circle cx="510" cy="460" r="3" fill="#00ff88" opacity="0.9"/>
+  <circle cx="524" cy="460" r="3" fill="#00ff88" opacity="0.9"/>
+  <circle cx="538" cy="460" r="3" fill="#ffaa00" opacity="0.7"/>
+  <text x="560" y="464" font-family="Courier New, monospace" font-size="8" fill="#8899bb">PWR · ACT · SYS</text>
+
+  <!-- Arrow: SBC → LoRa HAT (up) -->
+  <line x1="590" y1="340" x2="590" y2="292" stroke="#00ff88" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-g)"/>
+  <text x="598" y="318" font-family="Courier New, monospace" font-size="9" fill="#00ff88" opacity="0.7">GPIO</text>
+
+  <!-- LORA HAT -->
+  <rect x="510" y="220" width="160" height="70" fill="#091a0f" rx="5" stroke="#00ff88" stroke-width="1.5"/>
+  <text x="590" y="244" font-family="Courier New, monospace" font-size="11" fill="#00ff88" text-anchor="middle">LoRa HAT</text>
+  <text x="590" y="258" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">SX1262 · Waveshare</text>
+  <text x="590" y="272" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">915 MHz · 5–15 km range</text>
+  <!-- Antenna stub -->
+  <line x1="670" y1="240" x2="690" y2="220" stroke="#00ff88" stroke-width="2" opacity="0.6"/>
+  <line x1="690" y1="220" x2="690" y2="180" stroke="#00ff88" stroke-width="2" opacity="0.6"/>
+  <text x="698" y="206" font-family="Courier New, monospace" font-size="9" fill="#00ff88" opacity="0.7">ANT</text>
+
+  <!-- Arrow: SBC → Display (up-left) -->
+  <line x1="510" y1="380" x2="460" y2="322" stroke="#00aaff" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-b)"/>
+  <text x="470" y="356" font-family="Courier New, monospace" font-size="9" fill="#00aaff" opacity="0.7">SPI</text>
+
+  <!-- DISPLAY -->
+  <rect x="340" y="260" width="120" height="76" fill="#0a1520" rx="5" stroke="#00aaff" stroke-width="1.5"/>
+  <text x="400" y="282" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">DISPLAY</text>
+  <text x="400" y="296" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">3.5" SPI Touch</text>
+  <!-- Small screen content -->
+  <rect x="350" y="302" width="100" height="26" fill="#070710" rx="2"/>
+  <text x="400" y="315" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">GRID-NODE</text>
+  <text x="400" y="325" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">grid.local · 3 clients</text>
+
+  <!-- Arrow: SBC → WiFi hotspot (right) -->
+  <line x1="690" y1="410" x2="740" y2="390" stroke="#00aaff" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow-b)"/>
+
+  <!-- WIFI HOTSPOT icon -->
+  <rect x="742" y="362" width="120" height="68" fill="#091523" rx="5" stroke="#00aaff" stroke-width="1.5"/>
+  <text x="802" y="384" font-family="Courier New, monospace" font-size="10" fill="#00aaff" text-anchor="middle">Wi-Fi AP</text>
+  <text x="802" y="398" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">"GRID-NODE"</text>
+  <text x="802" y="412" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">~50m range</text>
+  <!-- WiFi waves -->
+  <path d="M 802 424 Q 790 416 802 408 Q 814 416 802 424" fill="none" stroke="#00aaff" stroke-width="1" opacity="0.5"/>
+  <path d="M 802 424 Q 780 412 802 400 Q 824 412 802 424" fill="none" stroke="#00aaff" stroke-width="1" opacity="0.3"/>
+
+  <!-- PELICAN CASE outline (everything inside) -->
+  <rect x="22" y="68" width="850" height="480" fill="none" rx="16" stroke="#2a3448" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="40" y="90" font-family="Courier New, monospace" font-size="9" fill="#2a3448" letter-spacing="2">PELICAN 1450 · WEATHERPROOF</text>
+
+  <!-- ───────────────────────────────────── -->
+  <!-- RIGHT: SOFTWARE STACK + SPECS        -->
+  <!-- ───────────────────────────────────── -->
+
+  <!-- Mini GRID dashboard mockup -->
+  <rect x="900" y="68" width="180" height="290" fill="#0b0b1c" rx="8" stroke="#171830" stroke-width="1.5"/>
+  <!-- screen bezel -->
+  <rect x="908" y="80" width="164" height="220" fill="#070710" rx="4"/>
+  <!-- screen content: mini dashboard -->
+  <rect x="908" y="80" width="164" height="20" fill="#0b0b1c"/>
+  <text x="916" y="94" font-family="Courier New, monospace" font-size="7" fill="#00ff88" letter-spacing="1">◈ GRID-MINI</text>
+  <circle cx="1056" cy="90" r="3" fill="#00ff88"/>
+  <!-- Mini tiles -->
+  <rect x="912" y="104" width="75" height="46" fill="#091a0f" rx="3" stroke="#171830"/>
+  <rect x="912" y="104" width="75" height="2" fill="#00ff88"/>
+  <text x="950" y="118" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">🌐 WIKI</text>
+  <text x="950" y="130" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">Simple EN</text>
+  <text x="950" y="142" font-family="Courier New, monospace" font-size="6" fill="#00ff88" text-anchor="middle">● LIVE</text>
+
+  <rect x="993" y="104" width="75" height="46" fill="#091a0f" rx="3" stroke="#171830"/>
+  <rect x="993" y="104" width="75" height="2" fill="#00ff88"/>
+  <text x="1030" y="118" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">⚕ MED</text>
+  <text x="1030" y="130" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">WikiMed</text>
+  <text x="1030" y="142" font-family="Courier New, monospace" font-size="6" fill="#00ff88" text-anchor="middle">● LIVE</text>
+
+  <rect x="912" y="156" width="75" height="46" fill="#091523" rx="3" stroke="#171830"/>
+  <rect x="912" y="156" width="75" height="2" fill="#00aaff"/>
+  <text x="950" y="170" font-family="Courier New, monospace" font-size="7" fill="#00aaff" text-anchor="middle">🗺 MAPS</text>
+  <text x="950" y="182" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">Regional</text>
+  <text x="950" y="194" font-family="Courier New, monospace" font-size="6" fill="#00aaff" text-anchor="middle">● 15 GB</text>
+
+  <rect x="993" y="156" width="75" height="46" fill="#091523" rx="3" stroke="#171830"/>
+  <rect x="993" y="156" width="75" height="2" fill="#00aaff"/>
+  <text x="1030" y="170" font-family="Courier New, monospace" font-size="7" fill="#00aaff" text-anchor="middle">◈ AI</text>
+  <text x="1030" y="182" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">Phi-3 Mini</text>
+  <text x="1030" y="194" font-family="Courier New, monospace" font-size="6" fill="#00aaff" text-anchor="middle">● READY</text>
+
+  <rect x="912" y="208" width="75" height="46" fill="#0e2818" rx="3" stroke="#171830"/>
+  <rect x="912" y="208" width="75" height="2" fill="#00ff88"/>
+  <text x="950" y="222" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">🌿 PLANTS</text>
+  <text x="950" y="234" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">iNaturalist</text>
+  <text x="950" y="246" font-family="Courier New, monospace" font-size="6" fill="#00ff88" text-anchor="middle">● NPU</text>
+
+  <rect x="993" y="208" width="75" height="46" fill="#091a0f" rx="3" stroke="#171830"/>
+  <rect x="993" y="208" width="75" height="2" fill="#00ff88"/>
+  <text x="1030" y="222" font-family="Courier New, monospace" font-size="7" fill="#00ff88" text-anchor="middle">📡 LoRa</text>
+  <text x="1030" y="234" font-family="Courier New, monospace" font-size="6" fill="#8899bb" text-anchor="middle">Meshtastic</text>
+  <text x="1030" y="246" font-family="Courier New, monospace" font-size="6" fill="#00ff88" text-anchor="middle">● MESH</text>
+
+  <!-- Home button -->
+  <circle cx="990" cy="316" r="12" fill="#0b0b1c" stroke="#2a3448" stroke-width="1.5"/>
+  <circle cx="990" cy="316" r="7" fill="transparent" stroke="#8899bb" stroke-width="1"/>
+  <text x="990" y="348" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle">GRID MINI UI</text>
+
+  <!-- Software stack -->
+  <rect x="900" y="372" width="180" height="176" fill="#0b0b1c" rx="6" stroke="#171830"/>
+  <text x="990" y="394" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" letter-spacing="3">SOFTWARE</text>
+  <line x1="910" y1="400" x2="1072" y2="400" stroke="#171830"/>
+  <text x="916" y="418" font-family="Courier New, monospace" font-size="9" fill="#00ff88">kiwix</text>
+  <text x="1072" y="418" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">Wikipedia ZIMs</text>
+  <text x="916" y="434" font-family="Courier New, monospace" font-size="9" fill="#00aaff">ollama</text>
+  <text x="1072" y="434" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">Phi-3 Mini 4-bit</text>
+  <text x="916" y="450" font-family="Courier New, monospace" font-size="9" fill="#00ff88">grid-mini</text>
+  <text x="1072" y="450" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">Dashboard UI</text>
+  <text x="916" y="466" font-family="Courier New, monospace" font-size="9" fill="#00aaff">meshtastic</text>
+  <text x="1072" y="466" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">LoRa daemon</text>
+  <text x="916" y="482" font-family="Courier New, monospace" font-size="9" fill="#00aaff">protomaps</text>
+  <text x="1072" y="482" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">Regional .pmtiles</text>
+  <text x="916" y="498" font-family="Courier New, monospace" font-size="9" fill="#00ff88">flatnotes</text>
+  <text x="1072" y="498" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">Local markdown notes</text>
+  <line x1="910" y1="508" x2="1072" y2="508" stroke="#171830"/>
+  <text x="916" y="524" font-family="Courier New, monospace" font-size="9" fill="#8899bb">grid.local</text>
+  <text x="1072" y="524" font-family="Courier New, monospace" font-size="9" fill="#00ff88" text-anchor="end">all services</text>
+  <text x="916" y="538" font-family="Courier New, monospace" font-size="9" fill="#8899bb">~50 GB</text>
+  <text x="1072" y="538" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="end">of 500 GB</text>
+
+  <!-- Power numbers -->
+  <rect x="30" y="570" width="830" height="88" fill="#0b0b1c" rx="5" stroke="#171830"/>
+  <text x="50" y="592" font-family="Courier New, monospace" font-size="9" fill="#8899bb" letter-spacing="3">POWER</text>
+  <line x1="44" y1="598" x2="848" y2="598" stroke="#171830"/>
+  <!-- Metrics row -->
+  <text x="60" y="620" font-family="Courier New, monospace" font-size="11" fill="#ffaa00">Panel</text>
+  <text x="60" y="636" font-family="Courier New, monospace" font-size="10" fill="#c8d4e8">500 Wh/day</text>
+  <text x="60" y="648" font-family="Courier New, monospace" font-size="9" fill="#8899bb">5h full sun</text>
+
+  <line x1="180" y1="606" x2="180" y2="650" stroke="#171830"/>
+  <text x="196" y="620" font-family="Courier New, monospace" font-size="11" fill="#00ff88">Idle draw</text>
+  <text x="196" y="636" font-family="Courier New, monospace" font-size="10" fill="#c8d4e8">~4W / 96 Wh/day</text>
+  <text x="196" y="648" font-family="Courier New, monospace" font-size="9" fill="#8899bb">continuous</text>
+
+  <line x1="380" y1="606" x2="380" y2="650" stroke="#171830"/>
+  <text x="396" y="620" font-family="Courier New, monospace" font-size="11" fill="#00ff88">Battery</text>
+  <text x="396" y="636" font-family="Courier New, monospace" font-size="10" fill="#c8d4e8">480 Wh usable</text>
+  <text x="396" y="648" font-family="Courier New, monospace" font-size="9" fill="#8899bb">5 days idle alone</text>
+
+  <line x1="570" y1="606" x2="570" y2="650" stroke="#171830"/>
+  <text x="586" y="620" font-family="Courier New, monospace" font-size="11" fill="#00aaff">Full sun</text>
+  <text x="586" y="636" font-family="Courier New, monospace" font-size="10" fill="#c8d4e8">Indefinite runtime</text>
+  <text x="586" y="648" font-family="Courier New, monospace" font-size="9" fill="#8899bb">panel &gt; load</text>
+
+  <line x1="740" y1="606" x2="740" y2="650" stroke="#171830"/>
+  <text x="756" y="620" font-family="Courier New, monospace" font-size="11" fill="#8899bb">Est. cost</text>
+  <text x="756" y="636" font-family="Courier New, monospace" font-size="10" fill="#c8d4e8">~$540 complete</text>
+  <text x="756" y="648" font-family="Courier New, monospace" font-size="9" fill="#8899bb">$300 min build</text>
+
+  <!-- Footer -->
+  <text x="550" y="670" font-family="Courier New, monospace" font-size="9" fill="#8899bb" text-anchor="middle" letter-spacing="1">GRID SOLAR PI NODE · HARDWARE NOT YET PURCHASED · PLANNING STAGE · gsswrk/grid</text>
+</svg>
